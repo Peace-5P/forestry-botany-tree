@@ -1,7 +1,7 @@
 let dyeData = {};
 
 // Загрузка данных
-fetch('data/dye_paths.json')
+fetch('dye_paths.json')
     .then(response => response.json())
     .then(data => {
         dyeData = data;
