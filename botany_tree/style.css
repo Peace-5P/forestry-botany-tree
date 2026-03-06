@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.search-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#tree-container {
+    min-height: 600px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+#info {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.node circle {
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+.node text {
+    font-family: Arial;
+}
