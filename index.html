@@ -3,6 +3,8 @@
 <head>
     <title>Forestry Botany - Дерево красителей</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
@@ -10,12 +12,21 @@
         <h1>🌳 Дерево получения красителей</h1>
 
         <div class="search-box">
-            <input type="text" id="search" placeholder="Введите название красителя..." list="dye-list">
+            <select id="category-select" class="category-select">
+                <option value="all">Все категории</option>
+                <option value="base">Базовые цветы</option>
+                <option value="mutatron">Мутатрон</option>
+                <option value="unique">Уникальные красители</option>
+            </select>
+            <input type="text" id="search" placeholder="Введите название..." list="dye-list" autocomplete="off">
             <datalist id="dye-list"></datalist>
-            <button onclick="searchDye()">Найти</button>
+            <button id="search-btn" class="search-btn">🔍 Найти</button>
+            <button onclick="clearSearch()" class="clear-btn">✖ Очистить</button>
         </div>
 
-        <div id="tree-container"></div>
+        <div id="tree-container">
+            <div class="no-data">🔍 Введите название для поиска</div>
+        </div>
         <div id="info"></div>
     </div>
 
