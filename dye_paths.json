@@ -1680,6 +1680,8 @@
       "color": "AQUAMARINE",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 100,
       "parents": [
         "белый",
@@ -1720,57 +1722,46 @@
       "color": "BLUE",
       "steps": 4,
       "selection": 2,
-      "chance": 115,
+      "total_steps": 6,
+      "total_selection": 2,
+      "chance": 105,
       "parents": [
-        "грифельно-синий",
+        "королевский синий",
         "фиолетовый"
       ],
       "tree": {
         "name": "глубоко-синий",
         "type": "dye",
-        "chance": 115,
+        "chance": 105,
         "parents": [
           {
-            "name": "аквилегия",
-            "color": "грифельно-синий",
+            "name": "скабиоза",
+            "color": "королевский синий",
             "type": "mutatron",
             "chance": 5,
             "parents": [
               {
-                "name": "ирис",
-                "color": "светло-серый",
+                "name": "лук",
+                "color": "светло-мраморный",
+                "type": "base"
+              },
+              {
+                "name": "василек",
+                "color": "небесно-голубой",
                 "type": "mutatron",
                 "chance": 10,
                 "parents": [
                   {
-                    "name": "орхидея",
-                    "color": "светло-синий",
+                    "name": "одуванчик",
+                    "color": "жёлтый",
                     "type": "base"
                   },
                   {
-                    "name": "фиалка",
-                    "color": "светло-мраморный",
-                    "type": "mutatron",
-                    "chance": 15,
-                    "parents": [
-                      {
-                        "name": "орхидея",
-                        "color": "светло-синий",
-                        "type": "base"
-                      },
-                      {
-                        "name": "мак",
-                        "color": "красный",
-                        "type": "base"
-                      }
-                    ]
+                    "name": "тюльпан",
+                    "color": "розовато-лиловый",
+                    "type": "unknown"
                   }
                 ]
-              },
-              {
-                "name": "мак",
-                "color": "красный",
-                "type": "base"
               }
             ]
           },
@@ -1864,6 +1855,8 @@
       "color": "BROWN",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
         "красный",
@@ -1905,6 +1898,8 @@
       "color": "CADET_BLUE",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 80,
       "parents": [
         "светло-синий",
@@ -1945,6 +1940,8 @@
       "color": "CHOCOLATE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 75,
       "parents": [
         "красный",
@@ -1986,6 +1983,8 @@
       "color": "CORAL",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 100,
       "parents": [
         "красный",
@@ -2014,15 +2013,17 @@
       "color": "CYAN",
       "steps": 3,
       "selection": 3,
-      "chance": 120,
+      "total_steps": 5,
+      "total_selection": 4,
+      "chance": 115,
       "parents": [
         "светло-бирюзовый",
-        "бирюзовый (сине-зелёный)"
+        "бледно-бирюзовый"
       ],
       "tree": {
         "name": "голубой",
         "type": "dye",
-        "chance": 120,
+        "chance": 115,
         "parents": [
           {
             "name": "светло-бирюзовый",
@@ -2054,29 +2055,30 @@
             ]
           },
           {
-            "name": "бирюзовый (сине-зелёный)",
+            "name": "бледно-бирюзовый",
             "type": "dye",
-            "chance": 85,
+            "chance": 105,
             "parents": [
               {
-                "name": "орхидея",
-                "color": "светло-синий",
+                "name": "маргаритка",
+                "color": "белый",
                 "type": "base"
               },
               {
-                "name": "тускло-зелёный",
-                "type": "dye",
-                "chance": 70,
+                "name": "василек",
+                "color": "небесно-голубой",
+                "type": "mutatron",
+                "chance": 10,
                 "parents": [
                   {
-                    "name": "орхидея",
-                    "color": "светло-синий",
+                    "name": "одуванчик",
+                    "color": "жёлтый",
                     "type": "base"
                   },
                   {
-                    "name": "тюльпан оранжевый",
-                    "color": "красно-оранжевый",
-                    "type": "base"
+                    "name": "тюльпан",
+                    "color": "розовато-лиловый",
+                    "type": "unknown"
                   }
                 ]
               }
@@ -2090,101 +2092,52 @@
       "color": "DARK_GOLDENROD",
       "steps": 3,
       "selection": 2,
-      "chance": 120,
+      "total_steps": 3,
+      "total_selection": 2,
+      "chance": 75,
       "parents": [
-        "оранжевый",
-        "бронзовый"
+        "синий со стальным оттенком",
+        "красно-оранжевый"
       ],
       "tree": {
         "name": "тёмно-бронзовый",
         "type": "dye",
-        "chance": 120,
+        "chance": 75,
         "parents": [
           {
-            "name": "оранжевый",
+            "name": "синий со стальным оттенком",
             "type": "dye",
-            "chance": 100,
+            "chance": 75,
             "parents": [
               {
-                "name": "ноготки",
-                "color": "золотистый",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "маргаритка",
-                    "color": "белый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  }
-                ]
+                "name": "орхидея",
+                "color": "светло-синий",
+                "type": "base"
               },
               {
-                "name": "тюльпан оранжевый",
-                "color": "красно-оранжевый",
-                "type": "base"
-              }
-            ]
-          },
-          {
-            "name": "бронзовый",
-            "type": "dye",
-            "chance": 80,
-            "parents": [
-              {
-                "name": "анютины глазки",
-                "color": "бледно-розовый",
+                "name": "живокость",
+                "color": "Тёмно-синевато-серый",
                 "type": "mutatron",
                 "chance": 5,
                 "parents": [
                   {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  },
-                  {
-                    "name": "фиалка",
-                    "color": "светло-мраморный",
-                    "type": "mutatron",
-                    "chance": 15,
-                    "parents": [
-                      {
-                        "name": "орхидея",
-                        "color": "светло-синий",
-                        "type": "base"
-                      },
-                      {
-                        "name": "мак",
-                        "color": "красный",
-                        "type": "base"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "ноготки",
-                "color": "золотистый",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "маргаритка",
-                    "color": "белый",
+                    "name": "сирень",
+                    "color": "светло-розовато-лиловый",
                     "type": "base"
                   },
                   {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
+                    "name": "голубой василек",
+                    "color": "блекло-голубой",
                     "type": "base"
                   }
                 ]
               }
             ]
+          },
+          {
+            "name": "тюльпан оранжевый",
+            "color": "красно-оранжевый",
+            "type": "base"
           }
         ]
       }
@@ -2194,6 +2147,8 @@
       "color": "DARK_GRAY",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 85,
       "parents": [
         "бледно-фиолетовый",
@@ -2232,62 +2187,64 @@
     {
       "name": "тёмно-зелёный",
       "color": "DARK_GREEN",
-      "steps": 4,
-      "selection": 3,
-      "chance": 55,
+      "steps": 5,
+      "selection": 4,
+      "total_steps": 8,
+      "total_selection": 4,
+      "chance": 65,
       "parents": [
-        "светло-зелёный",
+        "мятный",
         "чёрный"
       ],
       "tree": {
         "name": "тёмно-зелёный",
         "type": "dye",
-        "chance": 55,
+        "chance": 65,
         "parents": [
           {
-            "name": "светло-зелёный",
+            "name": "мятный",
             "type": "dye",
-            "chance": 110,
+            "chance": 70,
             "parents": [
               {
-                "name": "жёлто-зелёный",
+                "name": "орхидея",
+                "color": "светло-синий",
+                "type": "base"
+              },
+              {
+                "name": "тёмно-бронзовый",
                 "type": "dye",
                 "chance": 75,
                 "parents": [
                   {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "василек",
-                    "color": "небесно-голубой",
-                    "type": "mutatron",
-                    "chance": 10,
+                    "name": "синий со стальным оттенком",
+                    "type": "dye",
+                    "chance": 75,
                     "parents": [
                       {
-                        "name": "одуванчик",
-                        "color": "жёлтый",
+                        "name": "орхидея",
+                        "color": "светло-синий",
                         "type": "base"
                       },
                       {
-                        "name": "тюльпан",
-                        "color": "розовато-лиловый",
-                        "type": "unknown"
+                        "name": "живокость",
+                        "color": "Тёмно-синевато-серый",
+                        "type": "mutatron",
+                        "chance": 5,
+                        "parents": [
+                          {
+                            "name": "сирень",
+                            "color": "светло-розовато-лиловый",
+                            "type": "base"
+                          },
+                          {
+                            "name": "голубой василек",
+                            "color": "блекло-голубой",
+                            "type": "base"
+                          }
+                        ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "тускло-зелёный",
-                "type": "dye",
-                "chance": 70,
-                "parents": [
-                  {
-                    "name": "орхидея",
-                    "color": "светло-синий",
-                    "type": "base"
                   },
                   {
                     "name": "тюльпан оранжевый",
@@ -2363,6 +2320,8 @@
       "color": "DARK_KHAKI",
       "steps": 2,
       "selection": 1,
+      "total_steps": 3,
+      "total_selection": 1,
       "chance": 75,
       "parents": [
         "небесно-голубой",
@@ -2417,9 +2376,11 @@
       "color": "DARK_OLIVE_GREEN",
       "steps": 4,
       "selection": 2,
+      "total_steps": 5,
+      "total_selection": 2,
       "chance": 60,
       "parents": [
-        "темно-бежевый",
+        "тускло-зелёный",
         "чёрный"
       ],
       "tree": {
@@ -2428,45 +2389,19 @@
         "chance": 60,
         "parents": [
           {
-            "name": "темно-бежевый",
+            "name": "тускло-зелёный",
             "type": "dye",
-            "chance": 75,
+            "chance": 70,
             "parents": [
               {
-                "name": "василек",
-                "color": "небесно-голубой",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  }
-                ]
+                "name": "орхидея",
+                "color": "светло-синий",
+                "type": "base"
               },
               {
-                "name": "ноготки",
-                "color": "золотистый",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "маргаритка",
-                    "color": "белый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  }
-                ]
+                "name": "тюльпан оранжевый",
+                "color": "красно-оранжевый",
+                "type": "base"
               }
             ]
           },
@@ -2535,6 +2470,8 @@
       "color": "DARK_SALMON",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
         "светло-розовато-лиловый",
@@ -2563,6 +2500,8 @@
       "color": "DARK_SEA_GREEN",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 70,
       "parents": [
         "светло-синий",
@@ -2591,6 +2530,8 @@
       "color": "DARK_SLATE_GRAY",
       "steps": 4,
       "selection": 1,
+      "total_steps": 5,
+      "total_selection": 1,
       "chance": 55,
       "parents": [
         "небесно-голубой",
@@ -2684,6 +2625,8 @@
       "color": "DARK_TURQUOISE",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 85,
       "parents": [
         "светло-синий",
@@ -2724,6 +2667,8 @@
       "color": "DARK_VIOLET",
       "steps": 3,
       "selection": 1,
+      "total_steps": 4,
+      "total_selection": 1,
       "chance": 95,
       "parents": [
         "королевский синий",
@@ -2817,6 +2762,8 @@
       "color": "DEEP_PINK",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 90,
       "parents": [
         "розовато-лиловый",
@@ -2845,6 +2792,8 @@
       "color": "DIM_GRAY",
       "steps": 4,
       "selection": 1,
+      "total_steps": 4,
+      "total_selection": 1,
       "chance": 55,
       "parents": [
         "бледно-фиолетовый",
@@ -2925,6 +2874,8 @@
       "color": "DODGER_BLUE",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 90,
       "parents": [
         "светло-мраморный",
@@ -2953,6 +2904,8 @@
       "color": "GOLDENROD",
       "steps": 2,
       "selection": 1,
+      "total_steps": 3,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
         "бледно-розовый",
@@ -3020,6 +2973,8 @@
       "color": "GRAY",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 70,
       "parents": [
         "синий",
@@ -3059,7 +3014,9 @@
       "name": "зелёный",
       "color": "GREEN",
       "steps": 6,
-      "selection": 3,
+      "selection": 6,
+      "total_steps": 13,
+      "total_selection": 6,
       "chance": 110,
       "parents": [
         "тёмно-мятный",
@@ -3182,45 +3139,19 @@
             "chance": 60,
             "parents": [
               {
-                "name": "темно-бежевый",
+                "name": "тускло-зелёный",
                 "type": "dye",
-                "chance": 75,
+                "chance": 70,
                 "parents": [
                   {
-                    "name": "василек",
-                    "color": "небесно-голубой",
-                    "type": "mutatron",
-                    "chance": 10,
-                    "parents": [
-                      {
-                        "name": "одуванчик",
-                        "color": "жёлтый",
-                        "type": "base"
-                      },
-                      {
-                        "name": "тюльпан",
-                        "color": "розовато-лиловый",
-                        "type": "unknown"
-                      }
-                    ]
+                    "name": "орхидея",
+                    "color": "светло-синий",
+                    "type": "base"
                   },
                   {
-                    "name": "ноготки",
-                    "color": "золотистый",
-                    "type": "mutatron",
-                    "chance": 10,
-                    "parents": [
-                      {
-                        "name": "маргаритка",
-                        "color": "белый",
-                        "type": "base"
-                      },
-                      {
-                        "name": "одуванчик",
-                        "color": "жёлтый",
-                        "type": "base"
-                      }
-                    ]
+                    "name": "тюльпан оранжевый",
+                    "color": "красно-оранжевый",
+                    "type": "base"
                   }
                 ]
               },
@@ -3291,6 +3222,8 @@
       "color": "INDIAN_RED",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 115,
       "parents": [
         "красный",
@@ -3319,6 +3252,8 @@
       "color": "INDIGO",
       "steps": 3,
       "selection": 2,
+      "total_steps": 4,
+      "total_selection": 2,
       "chance": 110,
       "parents": [
         "тёмно-фиолетовый",
@@ -3398,6 +3333,8 @@
       "color": "KHAKI",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 95,
       "parents": [
         "жёлтый",
@@ -3426,6 +3363,8 @@
       "color": "LEMON_CHIFFON",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 105,
       "parents": [
         "белый",
@@ -3466,6 +3405,8 @@
       "color": "LIGHT_SEA_GREEN",
       "steps": 3,
       "selection": 2,
+      "total_steps": 4,
+      "total_selection": 2,
       "chance": 75,
       "parents": [
         "светло-синий",
@@ -3532,6 +3473,8 @@
       "color": "LIGHT_STEEL_BLUE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 105,
       "parents": [
         "небесно-голубой",
@@ -3572,56 +3515,33 @@
       "name": "лимонный",
       "color": "LIME",
       "steps": 4,
-      "selection": 3,
-      "chance": 115,
+      "selection": 4,
+      "total_steps": 5,
+      "total_selection": 5,
+      "chance": 100,
       "parents": [
-        "жёлто-зелёный",
-        "светло-зелёный"
+        "жёлтый",
+        "весенне-зеленый"
       ],
       "tree": {
         "name": "лимонный",
         "type": "dye",
-        "chance": 115,
+        "chance": 100,
         "parents": [
           {
-            "name": "жёлто-зелёный",
-            "type": "dye",
-            "chance": 75,
-            "parents": [
-              {
-                "name": "одуванчик",
-                "color": "жёлтый",
-                "type": "base"
-              },
-              {
-                "name": "василек",
-                "color": "небесно-голубой",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  }
-                ]
-              }
-            ]
+            "name": "одуванчик",
+            "color": "жёлтый",
+            "type": "base"
           },
           {
-            "name": "светло-зелёный",
+            "name": "весенне-зеленый",
             "type": "dye",
-            "chance": 110,
+            "chance": 115,
             "parents": [
               {
-                "name": "жёлто-зелёный",
+                "name": "бледно-зелёный",
                 "type": "dye",
-                "chance": 75,
+                "chance": 60,
                 "parents": [
                   {
                     "name": "одуванчик",
@@ -3629,10 +3549,26 @@
                     "type": "base"
                   },
                   {
-                    "name": "василек",
-                    "color": "небесно-голубой",
-                    "type": "mutatron",
-                    "chance": 10,
+                    "name": "орхидея",
+                    "color": "светло-синий",
+                    "type": "base"
+                  }
+                ]
+              },
+              {
+                "name": "аквамарин (цвет морской волны)",
+                "type": "dye",
+                "chance": 100,
+                "parents": [
+                  {
+                    "name": "маргаритка",
+                    "color": "белый",
+                    "type": "base"
+                  },
+                  {
+                    "name": "бледно-зелёный",
+                    "type": "dye",
+                    "chance": 60,
                     "parents": [
                       {
                         "name": "одуванчик",
@@ -3640,28 +3576,11 @@
                         "type": "base"
                       },
                       {
-                        "name": "тюльпан",
-                        "color": "розовато-лиловый",
-                        "type": "unknown"
+                        "name": "орхидея",
+                        "color": "светло-синий",
+                        "type": "base"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "тускло-зелёный",
-                "type": "dye",
-                "chance": 70,
-                "parents": [
-                  {
-                    "name": "орхидея",
-                    "color": "светло-синий",
-                    "type": "base"
-                  },
-                  {
-                    "name": "тюльпан оранжевый",
-                    "color": "красно-оранжевый",
-                    "type": "base"
                   }
                 ]
               }
@@ -3674,7 +3593,9 @@
       "name": "светло-зелёный",
       "color": "LIME_GREEN",
       "steps": 3,
-      "selection": 2,
+      "selection": 3,
+      "total_steps": 4,
+      "total_selection": 3,
       "chance": 110,
       "parents": [
         "жёлто-зелёный",
@@ -3740,6 +3661,8 @@
       "color": "MAGENTA",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 115,
       "parents": [
         "розовато-лиловый",
@@ -3794,6 +3717,8 @@
       "color": "MAROON",
       "steps": 4,
       "selection": 1,
+      "total_steps": 4,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
         "малиновый",
@@ -3874,20 +3799,23 @@
       "color": "MEDIUM_AQUAMARINE",
       "steps": 2,
       "selection": 2,
-      "chance": 110,
+      "total_steps": 3,
+      "total_selection": 2,
+      "chance": 95,
       "parents": [
-        "бледно-зелёный",
+        "небесно-голубой",
         "тускло-зелёный"
       ],
       "tree": {
         "name": "светло-мятный",
         "type": "dye",
-        "chance": 110,
+        "chance": 95,
         "parents": [
           {
-            "name": "бледно-зелёный",
-            "type": "dye",
-            "chance": 60,
+            "name": "василек",
+            "color": "небесно-голубой",
+            "type": "mutatron",
+            "chance": 10,
             "parents": [
               {
                 "name": "одуванчик",
@@ -3895,9 +3823,9 @@
                 "type": "base"
               },
               {
-                "name": "орхидея",
-                "color": "светло-синий",
-                "type": "base"
+                "name": "тюльпан",
+                "color": "розовато-лиловый",
+                "type": "unknown"
               }
             ]
           },
@@ -3924,12 +3852,14 @@
     {
       "name": "мятный",
       "color": "MEDIUM_SEA_GREEN",
-      "steps": 5,
-      "selection": 2,
+      "steps": 4,
+      "selection": 3,
+      "total_steps": 4,
+      "total_selection": 3,
       "chance": 70,
       "parents": [
-        "бледно-зелёный",
-        "тёмно-зеленовато-голубой"
+        "светло-синий",
+        "тёмно-бронзовый"
       ],
       "tree": {
         "name": "мятный",
@@ -3937,51 +3867,25 @@
         "chance": 70,
         "parents": [
           {
-            "name": "бледно-зелёный",
-            "type": "dye",
-            "chance": 60,
-            "parents": [
-              {
-                "name": "одуванчик",
-                "color": "жёлтый",
-                "type": "base"
-              },
-              {
-                "name": "орхидея",
-                "color": "светло-синий",
-                "type": "base"
-              }
-            ]
+            "name": "орхидея",
+            "color": "светло-синий",
+            "type": "base"
           },
           {
-            "name": "тёмно-зеленовато-голубой",
+            "name": "тёмно-бронзовый",
             "type": "dye",
-            "chance": 55,
+            "chance": 75,
             "parents": [
               {
-                "name": "василек",
-                "color": "небесно-голубой",
-                "type": "mutatron",
-                "chance": 10,
+                "name": "синий со стальным оттенком",
+                "type": "dye",
+                "chance": 75,
                 "parents": [
                   {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
+                    "name": "орхидея",
+                    "color": "светло-синий",
                     "type": "base"
                   },
-                  {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  }
-                ]
-              },
-              {
-                "name": "штокроза",
-                "color": "чёрный",
-                "type": "mutatron",
-                "chance": 5,
-                "parents": [
                   {
                     "name": "живокость",
                     "color": "Тёмно-синевато-серый",
@@ -3999,39 +3903,13 @@
                         "type": "base"
                       }
                     ]
-                  },
-                  {
-                    "name": "лаванда",
-                    "color": "светло-пурпурный",
-                    "type": "mutatron",
-                    "chance": 10,
-                    "parents": [
-                      {
-                        "name": "лук",
-                        "color": "светло-мраморный",
-                        "type": "base"
-                      },
-                      {
-                        "name": "фиалка",
-                        "color": "светло-мраморный",
-                        "type": "mutatron",
-                        "chance": 15,
-                        "parents": [
-                          {
-                            "name": "орхидея",
-                            "color": "светло-синий",
-                            "type": "base"
-                          },
-                          {
-                            "name": "мак",
-                            "color": "красный",
-                            "type": "base"
-                          }
-                        ]
-                      }
-                    ]
                   }
                 ]
+              },
+              {
+                "name": "тюльпан оранжевый",
+                "color": "красно-оранжевый",
+                "type": "base"
               }
             ]
           }
@@ -4043,6 +3921,8 @@
       "color": "MISTY_ROSE",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 115,
       "parents": [
         "бледно-фиолетовый",
@@ -4071,6 +3951,8 @@
       "color": "NAVY",
       "steps": 4,
       "selection": 3,
+      "total_steps": 6,
+      "total_selection": 3,
       "chance": 115,
       "parents": [
         "индиго (синий)",
@@ -4173,135 +4055,60 @@
     {
       "name": "тёмно-жёлтый",
       "color": "OLIVE",
-      "steps": 3,
+      "steps": 5,
       "selection": 2,
-      "chance": 70,
+      "total_steps": 7,
+      "total_selection": 2,
+      "chance": 65,
       "parents": [
-        "жёлто-зелёный",
-        "коричневый"
+        "золотистый",
+        "тёмно-зеленовато-голубой"
       ],
       "tree": {
         "name": "тёмно-жёлтый",
         "type": "dye",
-        "chance": 70,
+        "chance": 65,
         "parents": [
           {
-            "name": "жёлто-зелёный",
-            "type": "dye",
-            "chance": 75,
+            "name": "ноготки",
+            "color": "золотистый",
+            "type": "mutatron",
+            "chance": 10,
             "parents": [
+              {
+                "name": "маргаритка",
+                "color": "белый",
+                "type": "base"
+              },
               {
                 "name": "одуванчик",
                 "color": "жёлтый",
                 "type": "base"
-              },
-              {
-                "name": "василек",
-                "color": "небесно-голубой",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  }
-                ]
               }
             ]
           },
           {
-            "name": "коричневый",
-            "type": "dye",
-            "chance": 60,
-            "parents": [
-              {
-                "name": "живокость",
-                "color": "Тёмно-синевато-серый",
-                "type": "mutatron",
-                "chance": 5,
-                "parents": [
-                  {
-                    "name": "сирень",
-                    "color": "светло-розовато-лиловый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "голубой василек",
-                    "color": "блекло-голубой",
-                    "type": "base"
-                  }
-                ]
-              },
-              {
-                "name": "тюльпан оранжевый",
-                "color": "красно-оранжевый",
-                "type": "base"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "оливковый",
-      "color": "OLIVE_DRAB",
-      "steps": 5,
-      "selection": 2,
-      "chance": 85,
-      "parents": [
-        "жёлто-зелёный",
-        "тёмно-серый"
-      ],
-      "tree": {
-        "name": "оливковый",
-        "type": "dye",
-        "chance": 85,
-        "parents": [
-          {
-            "name": "жёлто-зелёный",
-            "type": "dye",
-            "chance": 75,
-            "parents": [
-              {
-                "name": "одуванчик",
-                "color": "жёлтый",
-                "type": "base"
-              },
-              {
-                "name": "василек",
-                "color": "небесно-голубой",
-                "type": "mutatron",
-                "chance": 10,
-                "parents": [
-                  {
-                    "name": "одуванчик",
-                    "color": "жёлтый",
-                    "type": "base"
-                  },
-                  {
-                    "name": "тюльпан",
-                    "color": "розовато-лиловый",
-                    "type": "unknown"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "тёмно-серый",
+            "name": "тёмно-зеленовато-голубой",
             "type": "dye",
             "chance": 55,
             "parents": [
               {
-                "name": "пеоны",
-                "color": "бледно-фиолетовый",
-                "type": "base"
+                "name": "василек",
+                "color": "небесно-голубой",
+                "type": "mutatron",
+                "chance": 10,
+                "parents": [
+                  {
+                    "name": "одуванчик",
+                    "color": "жёлтый",
+                    "type": "base"
+                  },
+                  {
+                    "name": "тюльпан",
+                    "color": "розовато-лиловый",
+                    "type": "unknown"
+                  }
+                ]
               },
               {
                 "name": "штокроза",
@@ -4366,10 +4173,92 @@
       }
     },
     {
+      "name": "оливковый",
+      "color": "OLIVE_DRAB",
+      "steps": 4,
+      "selection": 3,
+      "total_steps": 5,
+      "total_selection": 3,
+      "chance": 75,
+      "parents": [
+        "тёмно-бирюзовый",
+        "красно-оранжевый"
+      ],
+      "tree": {
+        "name": "оливковый",
+        "type": "dye",
+        "chance": 75,
+        "parents": [
+          {
+            "name": "тёмно-бирюзовый",
+            "type": "dye",
+            "chance": 75,
+            "parents": [
+              {
+                "name": "орхидея",
+                "color": "светло-синий",
+                "type": "base"
+              },
+              {
+                "name": "темно-бежевый",
+                "type": "dye",
+                "chance": 75,
+                "parents": [
+                  {
+                    "name": "василек",
+                    "color": "небесно-голубой",
+                    "type": "mutatron",
+                    "chance": 10,
+                    "parents": [
+                      {
+                        "name": "одуванчик",
+                        "color": "жёлтый",
+                        "type": "base"
+                      },
+                      {
+                        "name": "тюльпан",
+                        "color": "розовато-лиловый",
+                        "type": "unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ноготки",
+                    "color": "золотистый",
+                    "type": "mutatron",
+                    "chance": 10,
+                    "parents": [
+                      {
+                        "name": "маргаритка",
+                        "color": "белый",
+                        "type": "base"
+                      },
+                      {
+                        "name": "одуванчик",
+                        "color": "жёлтый",
+                        "type": "base"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "тюльпан оранжевый",
+            "color": "красно-оранжевый",
+            "type": "base"
+          }
+        ]
+      }
+    },
+    {
       "name": "оранжевый",
       "color": "ORANGE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 100,
       "parents": [
         "золотистый",
@@ -4411,6 +4300,8 @@
       "color": "PALE_GREEN",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 60,
       "parents": [
         "жёлтый",
@@ -4439,6 +4330,8 @@
       "color": "PALE_TURQUOISE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 105,
       "parents": [
         "белый",
@@ -4480,6 +4373,8 @@
       "color": "PALE_VIOLET_RED",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 90,
       "parents": [
         "светло-розовато-лиловый",
@@ -4508,46 +4403,36 @@
       "color": "PERU",
       "steps": 2,
       "selection": 2,
-      "chance": 75,
+      "total_steps": 2,
+      "total_selection": 2,
+      "chance": 50,
       "parents": [
-        "кирпично-красный",
-        "тускло-зелёный"
+        "красный",
+        "бледно-зелёный"
       ],
       "tree": {
         "name": "желтовато-коричневый",
         "type": "dye",
-        "chance": 75,
+        "chance": 50,
         "parents": [
           {
-            "name": "кирпично-красный",
-            "type": "dye",
-            "chance": 115,
-            "parents": [
-              {
-                "name": "роза",
-                "color": "красный",
-                "type": "base"
-              },
-              {
-                "name": "тюльпан красный",
-                "color": "малиновый",
-                "type": "base"
-              }
-            ]
+            "name": "роза",
+            "color": "красный",
+            "type": "base"
           },
           {
-            "name": "тускло-зелёный",
+            "name": "бледно-зелёный",
             "type": "dye",
-            "chance": 70,
+            "chance": 60,
             "parents": [
+              {
+                "name": "одуванчик",
+                "color": "жёлтый",
+                "type": "base"
+              },
               {
                 "name": "орхидея",
                 "color": "светло-синий",
-                "type": "base"
-              },
-              {
-                "name": "тюльпан оранжевый",
-                "color": "красно-оранжевый",
                 "type": "base"
               }
             ]
@@ -4560,6 +4445,8 @@
       "color": "PURPLE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 85,
       "parents": [
         "королевский синий",
@@ -4614,6 +4501,8 @@
       "color": "ROSY_BROWN",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 65,
       "parents": [
         "королевский синий",
@@ -4668,10 +4557,12 @@
       "color": "SALMON",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
-        "белый",
-        "красный"
+        "красный",
+        "блекло-голубой"
       ],
       "tree": {
         "name": "лососевый",
@@ -4679,13 +4570,13 @@
         "chance": 80,
         "parents": [
           {
-            "name": "маргаритка",
-            "color": "белый",
+            "name": "роза",
+            "color": "красный",
             "type": "base"
           },
           {
-            "name": "роза",
-            "color": "красный",
+            "name": "голубой василек",
+            "color": "блекло-голубой",
             "type": "base"
           }
         ]
@@ -4696,6 +4587,8 @@
       "color": "SANDY_BROWN",
       "steps": 1,
       "selection": 1,
+      "total_steps": 1,
+      "total_selection": 1,
       "chance": 90,
       "parents": [
         "бледно-фиолетовый",
@@ -4723,7 +4616,9 @@
       "name": "тёмно-мятный",
       "color": "SEA_GREEN",
       "steps": 5,
-      "selection": 2,
+      "selection": 3,
+      "total_steps": 7,
+      "total_selection": 3,
       "chance": 80,
       "parents": [
         "тёмно-зеленовато-голубой",
@@ -4841,6 +4736,8 @@
       "color": "SIENNA",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 60,
       "parents": [
         "Тёмно-синевато-серый",
@@ -4882,10 +4779,12 @@
       "color": "SLATE_GRAY",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 80,
       "parents": [
-        "синий",
-        "тёмно-лососевый"
+        "светло-мраморный",
+        "тускло-зелёный"
       ],
       "tree": {
         "name": "синевато-серый",
@@ -4893,30 +4792,18 @@
         "chance": 80,
         "parents": [
           {
-            "name": "синий",
+            "name": "лук",
+            "color": "светло-мраморный",
+            "type": "base"
+          },
+          {
+            "name": "тускло-зелёный",
             "type": "dye",
-            "chance": 90,
+            "chance": 70,
             "parents": [
-              {
-                "name": "лук",
-                "color": "светло-мраморный",
-                "type": "base"
-              },
               {
                 "name": "орхидея",
                 "color": "светло-синий",
-                "type": "base"
-              }
-            ]
-          },
-          {
-            "name": "тёмно-лососевый",
-            "type": "dye",
-            "chance": 80,
-            "parents": [
-              {
-                "name": "сирень",
-                "color": "светло-розовато-лиловый",
                 "type": "base"
               },
               {
@@ -4934,6 +4821,8 @@
       "color": "SPRING_GREEN",
       "steps": 3,
       "selection": 3,
+      "total_steps": 4,
+      "total_selection": 4,
       "chance": 115,
       "parents": [
         "бледно-зелёный",
@@ -4998,9 +4887,11 @@
       "color": "STEEL_BLUE",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 75,
       "parents": [
-        "небесно-голубой",
+        "светло-синий",
         "Тёмно-синевато-серый"
       ],
       "tree": {
@@ -5009,22 +4900,9 @@
         "chance": 75,
         "parents": [
           {
-            "name": "василек",
-            "color": "небесно-голубой",
-            "type": "mutatron",
-            "chance": 10,
-            "parents": [
-              {
-                "name": "одуванчик",
-                "color": "жёлтый",
-                "type": "base"
-              },
-              {
-                "name": "тюльпан",
-                "color": "розовато-лиловый",
-                "type": "unknown"
-              }
-            ]
+            "name": "орхидея",
+            "color": "светло-синий",
+            "type": "base"
           },
           {
             "name": "живокость",
@@ -5052,6 +4930,8 @@
       "color": "TAN",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 80,
       "parents": [
         "небесно-голубой",
@@ -5091,17 +4971,19 @@
     {
       "name": "бирюзово-голубой",
       "color": "TEAL",
-      "steps": 3,
+      "steps": 4,
       "selection": 3,
-      "chance": 60,
+      "total_steps": 6,
+      "total_selection": 3,
+      "chance": 55,
       "parents": [
         "бирюзовый (сине-зелёный)",
-        "красно-коричневый"
+        "чёрный"
       ],
       "tree": {
         "name": "бирюзово-голубой",
         "type": "dye",
-        "chance": 60,
+        "chance": 55,
         "parents": [
           {
             "name": "бирюзовый (сине-зелёный)",
@@ -5133,15 +5015,11 @@
             ]
           },
           {
-            "name": "красно-коричневый",
-            "type": "dye",
-            "chance": 80,
+            "name": "штокроза",
+            "color": "чёрный",
+            "type": "mutatron",
+            "chance": 5,
             "parents": [
-              {
-                "name": "роза",
-                "color": "красный",
-                "type": "base"
-              },
               {
                 "name": "живокость",
                 "color": "Тёмно-синевато-серый",
@@ -5159,6 +5037,37 @@
                     "type": "base"
                   }
                 ]
+              },
+              {
+                "name": "лаванда",
+                "color": "светло-пурпурный",
+                "type": "mutatron",
+                "chance": 10,
+                "parents": [
+                  {
+                    "name": "лук",
+                    "color": "светло-мраморный",
+                    "type": "base"
+                  },
+                  {
+                    "name": "фиалка",
+                    "color": "светло-мраморный",
+                    "type": "mutatron",
+                    "chance": 15,
+                    "parents": [
+                      {
+                        "name": "орхидея",
+                        "color": "светло-синий",
+                        "type": "base"
+                      },
+                      {
+                        "name": "мак",
+                        "color": "красный",
+                        "type": "base"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -5170,6 +5079,8 @@
       "color": "TURQUOISE",
       "steps": 2,
       "selection": 2,
+      "total_steps": 2,
+      "total_selection": 2,
       "chance": 75,
       "parents": [
         "бежевый",
@@ -5210,20 +5121,27 @@
       "color": "WHEAT",
       "steps": 2,
       "selection": 2,
-      "chance": 100,
+      "total_steps": 2,
+      "total_selection": 2,
+      "chance": 95,
       "parents": [
-        "бледно-розовый",
-        "бежевый"
+        "белый",
+        "бледно-коричневый"
       ],
       "tree": {
         "name": "бледно-оранжевый",
         "type": "dye",
-        "chance": 100,
+        "chance": 95,
         "parents": [
           {
-            "name": "бледно-розовый",
+            "name": "маргаритка",
+            "color": "белый",
+            "type": "base"
+          },
+          {
+            "name": "бледно-коричневый",
             "type": "dye",
-            "chance": 115,
+            "chance": 90,
             "parents": [
               {
                 "name": "пеоны",
@@ -5231,25 +5149,8 @@
                 "type": "base"
               },
               {
-                "name": "голубой василек",
-                "color": "блекло-голубой",
-                "type": "base"
-              }
-            ]
-          },
-          {
-            "name": "бежевый",
-            "type": "dye",
-            "chance": 95,
-            "parents": [
-              {
-                "name": "одуванчик",
-                "color": "жёлтый",
-                "type": "base"
-              },
-              {
-                "name": "маргаритка",
-                "color": "белый",
+                "name": "тюльпан оранжевый",
+                "color": "красно-оранжевый",
                 "type": "base"
               }
             ]
@@ -5262,6 +5163,8 @@
       "color": "YELLOW_GREEN",
       "steps": 2,
       "selection": 1,
+      "total_steps": 2,
+      "total_selection": 1,
       "chance": 75,
       "parents": [
         "жёлтый",
